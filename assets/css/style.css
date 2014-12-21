@@ -1,0 +1,1121 @@
+@font-face {
+    font-family: BebasNeuewebfont;
+    src: url(../fonts/BebasNeuewebfont.ttf);
+}
+
+
+*{
+font-family:  sans-serif, tahoma, arial;
+color:#343434;
+font-size: 15px;
+ }
+
+/*override anchor style*/
+a {
+    color: #1FC3CC;
+}
+a:focus{text-decoration: none;
+}
+/*eof*/
+input[type=text].form-control{background-color: #fafafa;}
+/*override style for navbar*/
+.navbar{
+    min-height: 0px;
+    background-color:#3ad1d4; 
+    margin-bottom: 0px;
+    -moz-box-shadow:    3px 1px 2px 1px #6e6e6e;
+    -webkit-box-shadow: 3px 1px 2px 1px #6e6e6e;
+    box-shadow:         0px 1px 2px 0px #6e6e6e;
+}
+.navbar-brand{
+    width: auto;
+    height:auto;
+    padding:0px 15px 0px 0px;
+
+}
+
+.navbar-header{width:auto;}
+.navbar-default{ border-radius: 0 0 0 0;
+border: none;}
+
+.navbar>.container .navbar-brand{
+    margin: 0px;
+}
+
+.navbar-default .navbar-nav>li>a {
+font-size: 1em;
+font-weight: 800;
+   color: white;
+text-transform: uppercase;
+}
+
+.nav>li>a{
+    padding:15px 13px;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+    background-color: #19a4a7;
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover .glyphicon{
+    color: white;
+    text-shadow: 2px 2px 1px rgba(5, 50, 50, 0.5);
+}
+
+#slogan{
+    font-family: georgia, helvetica;
+}
+
+/*need media-queries in navbar-brand*/
+
+/*eof*/
+
+/*override button style*/
+.btn{
+    border-radius: 0px;
+
+}
+
+.btn-default{
+    border-bottom: 2px solid #d4d4d4;
+}
+
+.btn-primary{
+    border-bottom:2px solid #0365a3;
+}
+
+.btn-success{
+    border-bottom: 2px solid #35a31d;
+}
+/*eof*/
+
+
+/*index styling*/
+h1.entry-title{font-family:'BebasNeuewebfont', sans-serif;
+color:#E2AD3B;
+font-size: 4.2em;
+text-shadow:2px 2px 1px rgba(5, 50, 50, 0.5);
+margin-bottom: 25px;}
+#deskripsi{min-height: 455px;}
+#deskripsi p{
+    color:#eaeaea;
+    font-size: 1.32em;  
+   text-shadow:1px 1px 1px rgba(5, 50, 50, 0.5);
+
+}
+
+#deskripsi strong, #telah_mendaftar strong {
+color: #E2AD3B;
+}
+
+.title{
+font-weight: 900;
+  margin-bottom: 20px;
+  color:#E2AD3B;
+}
+
+
+
+ul#sosmed{padding: 0px}
+ul#sosmed li{list-style: none;
+display: inline-block;}
+/*eof*/
+
+
+/*override style for login modal*/
+.modal-content{
+    border-radius: 0px 0px 6px 6px;
+}
+.modal-header{
+    background-color: #e7e7e7;
+    border-bottom: 2px solid rgba(0,0,0,0.08);
+}
+
+.modal-footer{border-top: none;}
+
+.form-control{
+    /*background-color: #fafafa;*/
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+#loginModal .form-control{
+    margin-bottom: 25px;
+}
+
+#btn_login{margin-bottom: 10px}
+/*eof*/
+
+
+/*http://sathyalog.wordpress.com/tag/bootstrap-callout/*/
+
+@media(max-width:767px){
+   .affix {
+     position: static;
+     width: 100%;
+     margin-top: 20px;
+     bottom: 0;
+    }
+
+    #sidebar{
+    height: auto;}
+}
+
+@media(min-width: 1200px){
+.affix-bottom, .affix {
+width: 268px;
+margin-top: 15px;
+}
+
+#sidebar{
+    min-height: 600px;}
+}
+
+@media(max-width: 992px){
+.affix-bottom, .affix {
+position: static;
+     width: 100%;
+     margin-top: 20px;
+     bottom: 0;
+}
+
+#sidebar{
+    height: auto;}
+}
+
+.affix-top{
+width:268px;
+	margin-top: 20px;
+}
+
+.affix-bottom {
+    position: absolute;
+    top: auto;
+    bottom: 400px;
+}
+
+#sidebar{
+
+    padding:10px;
+    height: auto;
+}
+
+/*area styling*/
+footer{
+    background-color: #ededed;
+    border-top: 1px solid #d2d2d2;
+    min-height: 30px;
+    padding: 20px 0px;
+    width: 100%;
+    color:#999999;
+}
+
+#content{
+    background-color: #F5F8FA;
+}
+#content, #main-index{min-height: 550px;
+padding: 15px  0px 40px 0px;}
+#main-index{
+
+
+background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url("../img/home.jpg") no-repeat center;
+
+background: -moz-linear-gradient(top, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.7) 100%), url("../img/home.jpg") no-repeat center;
+
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.7)), color-stop(100%,rgba(255,255,255,0.7))), url("../img/home.jpg") no-repeat center;
+
+background: -webkit-linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url("../img/home.jpg") no-repeat center;
+
+background: -o-linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url("../img/home.jpg") no-repeat center;
+
+background: -ms-linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url("../img/home.jpg") no-repeat center;
+
+background: linear-gradient(to bottom, rgba(15,15,15,0.45) 0%,rgba(15,15,15,0.45) 100%), url("../img/home.jpg") no-repeat center;
+background-size: cover;
+-moz-background-size:cover;
+-webkit-background-size:cover;
+-o-background-size:cover;
+}
+
+#content > .container{
+    min-height: 620px;
+}
+
+#share{
+    padding: 10px 0px;
+    background-color: #F5F5F5;
+    color: #333333
+}
+
+#telah_mendaftar{
+    
+    background: linear-gradient(to bottom, rgba(15,15,15,0.85) 0%,rgba(15,15,15,0.85) 100%), url("../img/mendaftar.png") bottom no-repeat;
+    min-height: 350px;
+    background-size: cover;
+-moz-background-size:cover;
+-webkit-background-size:cover;
+-o-background-size:cover;
+}
+
+#telah_mendaftar p{
+    color:#e3e3e3;
+    font-size: 0.999em;
+}
+
+#telah_daftar_title, #cara_daftar{
+    color: white;
+}
+
+#opsi_daftar{
+    padding-bottom: 65px;
+}
+.opsi_daftar_title{
+    color:#9AD42E;
+    font-family: 'BebasNeuewebfont', sans-serif;
+    font-size: 1.4em;
+    text-shadow:1px 1px 0px rgba(125, 150, 150, 0.5);
+}
+#img_user{
+    width: 70%;
+    margin: auto;
+    padding: 0px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+ul#img_user li{
+    list-style: none;
+    display: inline-block;
+    margin: 2px 0px;
+}
+.telah_daftar_img{
+    border-radius: 0px;
+    width: 64px;
+    height: 64px;
+    background-color: #c5c5c5;
+    padding:2px;
+}
+.opsi_btn{margin: 20px 0px 30px 0px;
+text-align: center;
+border-radius: 0px;
+border-bottom: 2px solid #195c89;
+padding: 8px 14px;
+}
+
+#info_baru{
+    background-color: #ffffff;
+    padding:5px 0px 15px 0px;
+    min-height: 300px;
+}
+     .info_baru_content{
+        margin: 20px 0px;
+     }
+.main{
+    background-color:white; 
+    border: 1px solid;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-radius: 3px;
+}
+
+/*eof*/
+
+/*text styling*/
+
+/*eof*/
+
+a#link_login:focus{
+    outline: none;
+    background-color: inherit;
+}
+
+.bg-danger, .bg-warning {
+    padding: 15px;
+}
+
+/*info style*/
+
+
+#info_short-desc{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #efefef;
+}
+
+#info_instansi{
+    /*background-color: #efefef;*/
+    padding:0px;
+    list-style: none;
+    margin-bottom: 0px;
+}
+    #info_instansi li{padding-bottom: 10px}
+
+
+    #share_content{
+        list-style: none;
+        padding: 0;
+    }
+    
+
+
+    #body-container, #info_upload-form, #info_jurusan, #loker{
+        /*margin-top: 20px;*/
+        width: 100%;
+        height: auto;
+    }
+    
+    #posted-on, #end-registration, #download-form, #tipe_info{
+        margin-right: 15px;
+        font-size: 0.75em;
+        
+
+    }
+    #posted-on{color:#6f6f6f;
+        font-style: italic; }
+
+    #info_upload-area{
+         width: 100%;
+        min-height: 200px;
+        border-radius: 10px;
+        border:2.5px dashed #afafaf;
+    }
+
+    #info_loker-status{
+        margin-top:10px; 
+    }
+
+    #loker-status{
+        margin-top: 0.99rem;
+        border-radius: 3.5px;
+        border: 1px solid #bebebe;
+        padding-top: 0.99rem;
+    }
+
+   #loker-status, #info_upload-area, .status{
+
+
+        /*centering text with flex component: http://www.smashingmagazine.com/2013/05/22/centering-elements-with-flexbox/*/
+        display: flex;
+        display:-webkit-box;
+        display:-moz-box;
+        display:-ms-flexbox;
+        display:-webkit-flex;
+
+        -webkit-box-align:center;
+        -moz-box-align:center;
+        -ms-flex-algin:center;
+        -webkit-align-items:center;
+        align-items:center;
+
+        justify-content:center;
+        -webkit-box-pack:center;
+        -ms-flex-pack:center;
+        -webkit-justify-content:center;
+    }
+
+   #loker-status p, #info_upload-area p, .status p{
+        color:#afafaf;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 0.915em;
+
+        display:-webkit-box;
+        display:-moz-box;
+        display:-ms-flexbox;
+        display:-webkit-flex;
+        display:flex;
+
+
+        -webkit-box-align:center;
+        -moz-box-align:center;
+        -ms-flex-align:center;
+
+        -webkit-align-items:center;
+        align-items:center;
+    }
+
+    #info_btn-upload{
+        margin-top: 15px;
+    }
+
+    #info_lain{
+        margin-top: 55px;
+        margin-bottom: 20px;
+    }
+
+    #info_loker-lain
+    {
+        padding: 0px;
+
+    }
+
+    #info_loker-lain li{
+        list-style: none;
+    }
+
+  /*  #info_jurusan{
+        padding: 5px;
+        background-color: #dedede;
+        margin-right: 10px;
+        font-size: 0.70em;
+    }*/
+/*eof*/
+
+
+.main_content{
+      padding-left: 1.33rem;
+    padding-right: 1.33rem;
+    padding-top:1.33rem;
+    padding-bottom: 2.55rem;
+
+    /*padding: 10px;*/
+    border-bottom:1px solid #dbdbdb;
+    /*margin: 5px 0px;*/
+}
+/*loker styling*/
+.main_content h3{
+    margin-top: 0px;
+    font-size: 1.2em;
+    font-weight: bold;    
+    color:  #9AD42E;
+    /*padding-bottom: 1.15rem;*/
+
+}
+
+#info_loker h2{margin-top: 5px}
+
+#loker_tes{
+    margin-bottom: 65px;
+}
+/*eof*/
+
+/*override label style*/
+.label{
+    
+    font-weight: normal;
+    padding:.5em .8em;
+}
+
+.label-default{
+    background-color: #efefef;
+}
+
+.label-default[href], .label-default[href]{
+    color:#444;
+}
+
+.label-default[href]:hover, .label-default[href]:focus {
+background-color: #428bca;
+}
+/*eof*/
+
+/*widget style*/
+.widget{
+    border-radius: 0.35em;
+    border:1px solid #dfdfdf;
+    font-size: 0.95em;
+    background-color: #FFFFFF;
+}
+
+.widget_content{
+    padding: 0 0.45em 0 0.45em;
+}
+
+.widget_title{
+    text-transform: uppercase;
+    color: #afafaf;
+}
+.widget_body{
+    padding: 0.25em 0.55em;
+}
+ .divider {
+height: 1px;
+margin: 9px auto;
+width: 98%;
+background-color: #e5e5e5;
+}
+
+.widget ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+ul#profile li{
+    font-size: 0.97em;
+    color: #5a5a5a;
+}
+
+li#profile_lulus, li#profile_lokasi{
+    margin-bottom: 1.5rem;
+}
+
+li#profile_verifikasi{
+    color: green;
+    font-size: 0.8em;
+    padding-top: 5px;
+}
+li#profile_nama h3{
+    font-weight: bolder;
+    font-size: 1.28em;
+}
+
+li#profile_proses{
+    padding-top: 45px;
+    font-size: 0.24em;
+}
+
+ul#partisipan{
+    padding: 0;
+    list-style: none;
+}
+
+ul#partisipan li{
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+ul#partisipan li:last-child{
+    width: auto;
+    height: auto;
+}
+
+ul.icon{
+    padding: 0px;
+list-style: none;}
+
+ul.icon li{
+    display: inline;
+    padding-right: 5px;
+}
+
+ul.icon li a{
+    font-size: 1.82em;
+}
+
+ul.icon li a:hover{
+    text-decoration: none;
+}
+
+.btn-edit{
+   display: none;
+}
+
+a.btn-opsi{
+    /*margin-left: 1.1rem;*/
+    /*float: right;*/
+    clear: left;
+    top: 0;
+    /*position: absolute;*/
+}
+
+.btn-edit:hover, .btn-opsi:hover{
+    text-decoration: none;
+}
+
+.widget_content:hover .btn-edit, ul#list_riwayat li:hover .btn-edit{
+    display: block;
+}
+
+/*eof*/
+
+
+/*feedback style*/
+#feedback_container{
+    /*margin-bottom: 150px;*/
+      padding-left: 1.33rem;
+    padding-right: 1.33rem;
+    padding-top:.53rem;
+  /*  margin-top: 40px;*/
+    background-color: #f4f4f4;
+}
+
+#feedback_container .form-control{
+    background-color: #FFFFFF;
+}
+#feedback_title{
+    background-color: #9AD42E;
+    padding: 5px;
+    color:white;
+}
+#feedback_title h4{
+    /*font-weight: bolder;*/
+}
+#feedback_body{
+    margin-top: 20px;
+}
+
+.feedback_title-desc{
+    color:white;
+}
+
+
+/*eof*/
+
+
+/*loker pelatihan*/
+.more_detail{
+    font-size: 0.85em;
+    color: #a4a4a4;
+}
+#pelatihan_tanggal{
+
+}
+.detail{
+
+    margin-left: 20px;
+}
+
+.detail a, .detail{
+        font-size: 0.92em;
+}
+
+.detail strong{
+        font-size: 0.93em;
+    color:#333;
+}
+
+.loker_pelatihan-icon{
+    margin-top: 5px;
+    font-size: 1.2em;
+    color:#bcbcbc;
+    float: left;
+}
+/*eof*/
+
+/*sign-up*/
+#sign-up{
+
+background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url("../img/6.jpg") no-repeat top;
+
+background: -moz-linear-gradient(top, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.7) 100%), url("../img/6.jpg") no-repeat top;
+
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.7)), color-stop(100%,rgba(255,255,255,0.7))), url("../img/6.jpg") no-repeat top;
+
+background: -webkit-linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url("../img/6.jpg") no-repeat top;
+
+background: -o-linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url("../img/6.jpg") no-repeat top;
+
+background: -ms-linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url("../img/6.jpg") no-repeat top;
+
+background: linear-gradient(to bottom, rgba(5,5,5,0.6) 0%,rgba(5,5,5,0.6) 100%), url("../img/6.jpg") no-repeat top;
+background-size: cover;
+-moz-background-size:cover;
+-webkit-background-size:cover;
+-o-background-size:cover;
+height: 100%;
+width: 100%;
+position: absolute;
+z-index: 1;
+}
+    #judul-form{
+        background-color: #e7e7e7;
+        border-bottom: 2px solid rgba(0,0,0,0.08);
+
+        padding:15px;
+        line-height: 1.42857143;
+        min-height: 16.43px;
+    }
+
+    #judul-form h4{
+        margin: 0;
+    }
+
+    #form-signup{
+        /*padding: 2rem;*/
+        max-width: 23%;
+        height: auto;
+        background-color: white;
+        border-radius: 0px 0px 6px 6px;
+        margin: 3rem auto;
+        position: relative;
+        box-shadow: 5px  10px 25px rgba(0,0,0,0.45);
+        box-sizing:border-box;
+    }
+    #konten-form{
+        padding:15px;
+    }
+/*eof*/
+
+/*home*/
+
+ul#list_informasi{
+    list-style: none;
+    padding: 0;
+    background-color: white;
+    border: 1px solid;
+border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+border-radius: 3px;
+}
+
+
+li.informasi{
+    /*margin-bottom: 2rem;*/
+    padding: 1.3rem 1.85rem;
+    border-bottom: 1px solid #ececec;
+}
+
+/*.informasi h3{
+   margin: 10px 0px;
+
+    font-size: 1.2em;
+}*/
+
+h3.informasi_title{
+    font-size: 1.4em;
+    margin-top: 0.5rem;
+}
+
+h3.informasi_title a{
+    font-weight: bold;    
+    color:  #9AD42E;
+}
+
+.informasi_tipe, .informasi_instansi, .informasi_posting{
+    font-size: 0.83em;
+    margin-right: 2.3rem;
+}
+
+.lowongan_kerja{
+    color: #0b83bf;
+}
+
+.pelatihan{
+    color: #ef9526;
+}
+
+.studi_lanjut{
+    color: #459b07;
+}
+
+.informasi_instansi{
+    font-weight: bold;
+}
+.informasi_posting{font-style: italic;}
+
+.informasi p{
+    margin: 12px 0px;
+}
+
+/*sidebar left*/
+ul#list_kategori_informasi li, ul#list_kategori_bidang li{
+margin-bottom: 8px;
+font-size: 1.12em;
+}
+/*search form*/
+#search_container{
+    display: inline-block;
+    width: 100%;
+    border:2px solid #e4e4e4;
+}
+#search_form{
+    display: block;
+    float: left;
+    width: 80%;
+    
+    border:none;
+    background-color: #fff;
+}
+#search_button{
+display: block;
+float: left;
+width: 20%;
+text-indent: -99999em;
+border:none;
+background-color: #e4e4e4;
+padding: .7rem;
+background-image: url(../img/search.png);
+background-repeat: no-repeat;
+background-position: center;}
+/*eof*/
+
+/*profile style*/
+.page-title{
+margin: 20px 0px ;
+border-bottom: 1px solid #c3c3c3;
+}
+
+
+
+ul#list_aktifitas{
+    padding: 0px;
+    list-style: none;
+    font-size: 1.1em;
+    border: 1px solid; border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-radius: 3px;
+    background-color:white;
+
+}
+
+li.aktifitas_container{
+    border-bottom: 1px solid #efefef;
+    padding: 1.3rem 1.85rem;
+
+}
+
+ul#tipe_aktifitas{
+    list-style: none;
+    padding: 0;
+}
+
+ul#tipe_aktifitas li{
+    display: inline-block;
+    margin-right:2.5rem;
+}
+
+#informasi_container{
+    border-radius: 0.35em;
+/*border: 1px solid #dfdfdf;*/
+background-color: white
+}
+
+.aktifitas_user{
+    position: relative;
+    color: #a2a2a2;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+.aktifitas_user, .aktifitas_user a{
+    font-size: .995em;
+}
+
+.aktifitas_user a.username{
+    font-weight: bolder;
+    color: #169399;
+}
+
+.aktifitas_tgl, .aktifitas_link a{
+    font-size: 0.75em;
+}
+
+.aktifitas_tgl{
+    /*font-style: italic;*/
+    color: #999;
+}
+
+#list_pengalaman_kerja li{
+    color: #a3a3a3;
+    margin-top: 1.11rem;
+    margin-bottom: 1.95rem;
+}
+
+#list_pengalaman_kerja li h4{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    font-size: 0.92em;
+    font-weight: bolder;
+}
+
+#list_pengalaman_kerja li a{
+    color: #169399;
+}
+.detail_pengalaman_kerja{
+    display: inline-block;
+
+}
+
+.detail_pengalaman_kerja li {
+    display: inline;
+    font-size: 0.86em;
+    padding-right: 0.49rem;
+}
+/*eof*/
+
+
+ 
+/* 
+callout from bootstrap docs
+https://gist.github.com/matthiasg/6153853
+Side notes for calling out things
+-------------------------------------------------- */
+ 
+/* Base styles (regardless of theme) */
+.bs-callout {
+  margin: 20px 0;
+  padding: 15px 30px 15px 15px;
+  border-left: 5px solid #eee;
+}
+.bs-callout h4 {
+  margin-top: 0;
+}
+.bs-callout p:last-child {
+  margin-bottom: 0;
+}
+.bs-callout code,
+.bs-callout .highlight {
+  background-color: #fff;
+}
+ 
+/* Themes for different contexts */
+.bs-callout-danger {
+  background-color: #fcf2f2;
+  border-color: #dFb5b4;
+}
+.bs-callout-warning {
+  background-color: #fefbed;
+  border-color: #f1e7bc;
+}
+.bs-callout-info {
+  background-color: #f0f7fd;
+  border-color: #d0e3f0;
+}
+
+.bs-callout-danger h4 {
+color: #B94A48;
+}
+
+.bs-callout-warning h4 {
+color: #C09853;
+}
+
+.bs-callout-info h4 {
+color: #3A87AD;
+}
+
+
+/*dropdown-menu*/
+.aktifitas-opsi{
+    margin-top: 1.55rem;
+    list-style: none;
+    padding: 0;
+}
+
+.aktifitas-opsi li{
+
+    display: inline-block;
+    margin-right: 1.55rem;
+}
+
+.aktifitas-opsi li a{
+    color: #efefef;
+    font-size: 0.98em;
+}
+
+.aktifitas-opsi li a:hover{
+    text-decoration: none;
+    color: #aeaeae;
+}
+
+/*eof*/
+
+/*pengaturan*/
+#pengaturan_body{
+    border-top-width: 0px;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+    border-style: solid;
+    border-color: #e7e7e7;
+}
+
+ul#pengaturan_menu{
+    list-style: none;
+    padding: 15px 0px 0px 0px;
+    min-height: 600px;
+}
+
+    ul#pengaturan_menu li{
+        padding: 10px 10px 10px 15px;
+    }
+
+    ul#pengaturan_menu li.active{
+        background-color: #f2f2f2;
+        border-left:4px solid #3ad1d4;
+    }
+
+    ul#list_riwayat{
+        list-style: none;
+        padding: 0px;
+    }
+
+    ul#list_riwayat li{
+        padding:10px 15px;
+        border-bottom: 1px solid #d6d6d6;
+    }
+
+    ul#list_riwayat li:not(.tambah_riwayat):hover{
+        background-color: #f3f3f3;
+    }
+
+    ul#list_riwayat li h4{
+        font-weight: bolder;
+        /*color: #9AD42E;*/
+        margin-bottom: 0px;
+        text-transform: uppercase;
+    }
+
+    ul#list_riwayat li small{
+        font-size: 0.85em;
+        color: #a2a2a2;
+    }
+#form_verifikasi{
+    max-width: 45%;
+    height: auto;
+    margin: auto;
+    margin-top: 2rem;
+}
+/*eof*/
+
+/*list alumni*/
+ul#list_alumni{
+    padding:0px;
+    list-style: none;
+    background-color: white;
+    border:1px solid;
+    border-color:#e5e6e9 #dfe0e4 #d0d1d5;
+    border-radius: 3px;
+}
+
+    ul#list_alumni li{
+        max-height: 140px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+ul#list_alumni li:first-child{
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+ul#list_alumni li:first-child h4{
+    font-weight: bolder;
+    margin: 0;
+}
+
+div.alumni{
+    margin:0px;overflow:hidden;padding-left:5px;
+}
+img.img_alumni{
+    max-width: 64px;
+    max-height:64px; 
+}
+
+h4.nama_alumni{
+    margin: 0;
+ 
+    font-weight: bold;
+}
+h4.nama_alumni a{
+    font-size: 0.83em;
+
+    text-decoration: none;
+   color: #9AD42E;
+}
+
+h4.nama_alumni a:hover{
+    border-bottom: 1.2px solid #9AD42E;
+}
+small.lulus_alumni{
+    font-size: 0.75em;
+    color: #b3b3b3;
+}
+p.alamat_alumni{
+    margin-top: 0.3rem;
+    font-size: 0.744445em;
+    font-weight: bolder;
+}
+
+
+
+/*eof*/

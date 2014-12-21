@@ -1,0 +1,12 @@
+used in sitrady
+1. bootstrap
+2. codeigniter
+3. lightSlider
+4. jquery
+5. highchart??
+5. sublime
+6. xammp
+7. mysql workbench
+8. starUML
+9. bootstrap-tokenfield
+10. AdminLTE

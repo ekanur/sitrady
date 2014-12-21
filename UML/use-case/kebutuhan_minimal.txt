@@ -1,0 +1,7 @@
+kebutuhan utama
+---------------
+sistem informasi mampu memberikan report persebaran alumni(bekerja, melanjutkan kerja, menganggur) kepada sekolah (admin, guru bk), menginformasikan lowongan kerja, pelatihan, informasi studi lanjut kepada alumni.
+===================================================
+Login
+--------------
+Alumni dapat masuk ke sistem informasi melalui halaman login dengan memasukan username & password

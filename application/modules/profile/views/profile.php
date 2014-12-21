@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sistem Informasi Tracer Study - SMKN 1 Jenangan Ponorogo</title>
+    <link rel="shortcut icon" href="<?php echo base_url(); ?>/assets/img/icon.png">
+    <!-- Bootstrap -->
+    <link href="<?php echo base_url(); ?>/assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+  <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"> -->
+    <!-- more fontawesome -->
+    <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/css/font-awesome.css"/>
+    <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/css/style.css"/>
+  
+
+
+  </head>
+  <body>
+  
+  <!-- Header -->
+  <header class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header" style="">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    <a class="navbar-brand" href="#"><img src="<?php echo base_url(); ?>/assets/img/logo.png" alt=""></a>
+      
+      
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav  navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-globe"></span></a></li>
+        <li class="dropdown"><a href="">Username <span class="caret"></span></a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+  </header>
+  <!-- EOF Header -->
+
+  <!-- Main -->
+  <div id="content">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-2">
+         <div class="widget"  style="background-color:white">
+            <div class="widget_content">
+              <h5 class="widget_title">PROFILE <a class="fa fa-pencil btn-edit pull-right" href=""></a></h5>
+              <div class="widget_body">
+                <ul id="profile">
+                  <li id="profile_photo"><img src="<?php echo base_url(); ?>/assets/img/user/8.jpg" alt="" class="img-responsive img-thumbnail" /></li>
+                  <li id="profile_nama"><h3>Bunga Citra Lestari<span class="fa fa-check-circle" style="padding-left:5px; color:green; font-size:0.8em"></span></h3></li>
+                  <li id="profile_lokasi">
+                    <i class="glyphicon glyphicon-home" style="padding-right:5px; color:#aaaaaa; float:left"></i><div class="detail">Tinggal di <a href="">Jakarta</a></div>
+                  </li>
+                  <li id="profile_lulus">
+                    <i class="fa fa-graduation-cap" style="padding-right:5px; color:#aaa; float:left"></i>
+                    <div class="detail">Lulus pada <a href="">2011</a>, <a href="">Gambar Bangunan</a></div>
+                  </li>
+                  <!-- <li id="profile_proses">
+                    Update Profile
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:95%">95%</div>
+                    </div>
+                    <a href="">Edit</a>
+                  </li> -->
+                </ul>
+              </div>
+            </div>
+            <div class="divider"></div>
+              
+                <div class="widget_content">
+                  <h5 class="widget_title">BAGIKAN</h5>
+                  <div class="widget_body">
+                    <ul class="icon">
+                      <li><a href="" class="fa fa-facebook-square"></a></li>
+                      <li><a href="" class="fa fa-twitter-square"></a></li>
+                      <li><a href="" class="fa fa-google-plus-square"></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+                    
+          </div>
+        <div class="col-md-7">
+          
+          <ul id="list_aktifitas">
+            <li class="aktifitas_container"id=" aktifitas_tipe">
+              <ul id="tipe_aktifitas">
+                <li>Rekrutmen</li>
+                <li><a href="">Pelatihan</a></li>
+              </ul>
+            </li>
+            
+            <li class="aktifitas_container">
+             <strong><a href="">Bunga Citra Lestari</a></strong> diterima kerja pada <a href="">lowongan kerja</a> dari <strong>PT. Pertamina</strong>.
+             <div class="aktifitas_tgl">3 Agustus</div>
+             
+              <ul class="aktifitas-opsi">
+
+              <li><a href="" class="glyphicon glyphicon-list-alt" data-toggle="tooltip" data-placement="top" title="Lihat di Loker"></a></li>
+                <li><a href="" class="glyphicon glyphicon-eye-close" data-toggle="tooltip" data-placement="top" title="Sembunyikan"></a></li>
+                <li><a href="" class="fa fa-share-alt" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="<ul><li><a href=''>Facebook</a></li><li><a href=''>Twitter</a></li><li><a href=''>G+</a></li></ul>"></a></li>
+                
+              </ul>            
+            </li>
+            <li class="aktifitas_container">
+             <strong><a href="">Bunga Citra Lestari</a></strong> diterima kerja pada <a href="">lowongan kerja</a> dari <strong>PT. Pertamina</strong>.
+             <div class="aktifitas_tgl">3 Agustus</div>
+             
+              <ul class="aktifitas-opsi">
+
+              <li><a href="" class="glyphicon glyphicon-list-alt" data-toggle="tooltip" data-placement="top" title="Lihat di Loker"></a></li>
+                <li><a href="" class="glyphicon glyphicon-eye-close" data-toggle="tooltip" data-placement="top" title="Sembunyikan"></a></li>
+                <li><a href="" class="fa fa-share-alt" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="<ul><li><a href=''>Facebook</a></li><li><a href=''>Twitter</a></li><li><a href=''>G+</a></li></ul>"></a></li>
+                
+              </ul>            
+            </li>
+            <li class="aktifitas_container">
+             <strong><a href="">Bunga Citra Lestari</a></strong> diterima kerja pada <a href="">lowongan kerja</a> dari <strong>PT. Pertamina</strong>.
+             <div class="aktifitas_tgl">3 Agustus</div>
+             
+              <ul class="aktifitas-opsi">
+
+              <li><a href="" class="glyphicon glyphicon-list-alt" data-toggle="tooltip" data-placement="top" title="Lihat di Loker"></a></li>
+                <li><a href="" class="glyphicon glyphicon-eye-close" data-toggle="tooltip" data-placement="top" title="Sembunyikan"></a></li>
+                <li><a href="" class="fa fa-share-alt" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="<ul><li><a href=''>Facebook</a></li><li><a href=''>Twitter</a></li><li><a href=''>G+</a></li></ul>"></a></li>
+                
+              </ul>            
+            </li>
+            
+            
+
+          </ul>
+        </div>
+
+        <div class="col-md-3">
+             
+          <div class="widget" style="background-color:white">
+            <div class="widget_content">
+              <h5 class="widget_title">RIWAYAT PENDIDIKAN <a class="fa fa-pencil btn-edit pull-right" href=""></a></h5>
+              <div class="widget_body">
+                <span class="status">
+                  
+                  <p> kosong </p>
+                   
+                </span>
+  
+              </div>
+            </div>
+            <div class="divider"></div>
+              
+                <div class="widget_content" style=>
+                  <h5 class="widget_title">PENGALAMAN KERJA <a class="fa fa-pencil btn-edit pull-right" href=""></a></h5>
+                  <div class="widget_body">
+                   <ul id="list_pengalaman_kerja">
+                     <li><a href=""><h4>PT. PERTAMINA</h4></a>
+                        <ul class="detail_pengalaman_kerja">
+                          <li>Teknisi</li>
+                          <li>2011 s/d 2013</li>
+                          <li>Surabaya</li>
+                        </ul>
+                     </li>
+                      <li><a href=""><h4>PT. PERTAMINA</h4></a>
+                        <ul class="detail_pengalaman_kerja">
+                          <li>Teknisi</li>
+                          <li>2011 s/d 2013</li>
+                          <li>Surabaya</li>
+                        </ul>
+                     </li>
+                      <li><a href=""><h4>PT. PERTAMINA</h4></a>
+                        <ul class="detail_pengalaman_kerja">
+                          <li>Teknisi</li>
+                          <li>2011 s/d 2013</li>
+                          <li>Surabaya</li>
+                        </ul>
+                     </li>
+                      <li><a href=""><h4>PT. PERTAMINA</h4></a>
+                        <ul class="detail_pengalaman_kerja">
+                          <li>Teknisi</li>
+                          <li>2011 s/d 2013</li>
+                          <li>Surabaya</li>
+                        </ul>
+                     </li>
+                     <li><a href="" class="load-more">lihat semua</a> </li>
+                   </ul>
+                   
+                  </div>
+                </div>
+            
+              </div>
+        </div>
+
+      
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- EOF Main -->
+
+  <!-- Footer -->
+  <footer>
+  <div class="container">
+    <div class="row">
+    <div class="col-md-12">
+      
+      <p><small>Create with <span class="glyphicon glyphicon-heart"></span> by <a href="">@eka_nur</a></small></p>
+      
+    </div>
+  </div>
+  </div>
+  </footer>
+<!-- EOF Footer -->
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="<?php echo base_url(); ?>/assets/js/jquery-1.9.1.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="<?php echo base_url(); ?>/assets/js/bootstrap.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> -->
+    <script type="text/javascript">
+          // $('#sidebar').affix();
+          
+          // $("#login").click(function(){
+          //   $("#username").focus();
+          // });
+
+        $('.dropdown-toggle').dropdown()
+    </script>
+
+    
+  </body>
+</html>
